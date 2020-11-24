@@ -23,7 +23,7 @@ streamlit run periodic_table_creator.py
 
 
 ## Load your own content
-Create your own Periodic Table by loading your content via your own CSV file. Look at the "Edit CSV text" section for an example of the CSV format:
+Create your own Periodic Table by loading your content via your own CSV file. Look [here](periodic-table-creator/periodic_nlp.csv) or at the "Edit CSV text" section for an example of the CSV format:
 - header column names: atomicnumber;group;period;symbol;elementname;groupname;color
 - semicolon or comma seperated
 - csv extension
