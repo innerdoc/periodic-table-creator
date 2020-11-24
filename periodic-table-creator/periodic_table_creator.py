@@ -17,7 +17,10 @@ try:
 except:
     st.beta_set_page_config(layout="wide")
 
-image = Image.open('periodic-table-icon.png')
+try:
+    image = Image.open('periodic-table-creator/periodic-table-icon.png')
+except:
+    image = Image.open('periodic-table-icon.png')
 st.sidebar.title('Periodic Table Creator')
 st.sidebar.image(image, width=200 ) #use_column_width=True)
 
@@ -46,8 +49,12 @@ with try_expander('Load Content', False):
     if uploaded_file is not None:
         bytes_data = uploaded_file.read().decode("utf-8", "strict") 
     else:
-        with open('periodic_nlp.csv', 'r') as f:
-            bytes_data = f.read()
+        try:
+            with open('periodic-table-creator/periodic_nlp.csv', 'r') as f:
+                bytes_data = f.read()
+        except:
+            with open('periodic_nlp.csv', 'r') as f:
+                bytes_data = f.read()
         
     if st.checkbox('Edit CSV text', value=False):
         bytes_data = st.text_area('CSV file', value=bytes_data, height=200, max_chars=100000)
