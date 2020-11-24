@@ -1,0 +1,82 @@
+atomicnumber;group;period;symbol;elementname;groupname;color
+1;1;1;Bit;Bits to Character\nEncoding;Source Data\nLoading;#3182bd
+2;1;2;Typ;Manual\nTypewriting;Source Data\nLoading;#6baed6
+3;1;3;Str;Loading a\nStructured\nDatafile;Source Data\nLoading;#6baed6
+4;1;4;Cor;Generating a\nCorpus;Source Data\nLoading;#6baed6
+5;1;5;Api;Loading\nfrom API;Source Data\nLoading;#6baed6
+6;1;6;Scr;Text and File\nScraping;Source Data\nLoading;#6baed6
+7;1;7;Ext;Text Extraction\nand OCR;Source Data\nLoading;#6baed6
+8;2;2;Man;Manual\nAnnotation;Training Data\nGeneration;#9ecae1
+9;2;3;Act;Annotation with\nActive Learning;Training Data\nGeneration;#9ecae1
+10;2;4;Pro;Training Data\nProvider;Training Data\nGeneration;#9ecae1
+11;2;5;Cro;Crowdsourcing\nMarketplace;Training Data\nGeneration;#9ecae1
+12;2;6;Aug;Textual Data\nAugmentation;Training Data\nGeneration;#9ecae1
+13;2;7;Rul;Rulebased\nTraining Data;Training Data\nGeneration;#9ecae1
+14;3;3;Tok;Tokenization;Word\nParsing;#fd8d3c
+15;3;4;Voc;Vocabulary\nBuilding;Word\nParsing;#fd8d3c
+16;3;5;Mor;Morphological\nTagger;Word\nParsing;#fd8d3c
+17;3;6;Pos;Part-of-Speech\nTagger;Word\nParsing;#fd8d3c
+18;3;7;Dep;Dependency\nParser;Word\nParsing;#fd8d3c
+19;4;3;Ste;Stemming;Word\nProcessing;#fd8d3c
+20;4;4;Lem;Lemmatization;Word\nProcessing;#fd8d3c
+21;4;5;Nrm;Normalization;Word\nProcessing;#fd8d3c
+22;4;6;Spl;Spell\nChecker;Word\nProcessing;#fd8d3c
+23;4;7;Neg;Negation\nRecognizer;Word\nProcessing;#fd8d3c
+24;5;3;Ngr;N-grams;Phrases and\nEntities;#fdae6b
+25;5;4;Phr;Rulebased\nPhrasematcher;Phrases and\nEntities;#fdae6b
+26;5;5;Chu;Dependency\nNounchunks;Phrases and\nEntities;#fdae6b
+27;5;6;Ner;Named Entity\nRecognition;Phrases and\nEntities;#fdae6b
+28;5;7;Abr;Abbreviation\nFinder;Phrases and\nEntities;#fdae6b
+29;6;2;Pri;Price\nParser;Entity\nEnriching;#fdae6b
+30;6;3;Geo;Geocoding;Entity\nEnriching;#fdae6b
+31;6;4;Tmp;Temporal\nParser;Entity\nEnriching;#fdae6b
+32;6;5;Nel;Named Entity\nLinking;Entity\nEnriching;#fdae6b
+33;6;6;Crf;Coreference\nResolution;Entity\nEnriching;#fdae6b
+34;6;7;Anm;Text\nAnonymizer;Entity\nEnriching;#fdae6b
+35;7;4;Sen;Sentencizer;Sentences and\nParagraphs;#fdd0a2
+36;7;5;Par;Paragraph\nSegmentation;Sentences and\nParagraphs;#fdd0a2
+37;7;6;Grm;Grammar\nChecker;Sentences and\nParagraphs;#fdd0a2
+38;7;7;Rea;Readability\nScoring;Sentences and\nParagraphs;#fdd0a2
+39;8;4;Ded;Deduplication;Documents;#fdd0a2
+40;8;5;Raw;Raw Tekst\nCleaning;Documents;#fdd0a2
+41;8;6;Met;Meta-Info\nExtractor;Documents;#fdd0a2
+42;8;7;Lng;Language\nIdentification;Documents;#fdd0a2
+43;9;3;Trn;Training\nModels;Model\nDevelopment;#31a354
+44;9;4;Tst;Testing\nModels;Model\nDevelopment;#31a354
+45;9;5;Exp;Explaining\nModels;Model\nDevelopment;#31a354
+46;9;6;Dpl;Deploying\nModels;Model\nDevelopment;#31a354
+47;9;7;Mon;Monitoring\nModels;Model\nDevelopment;#31a354
+48;10;3;Spa;Spam\nDetection;Supervised\nClassification;#74c476
+49;10;4;Sed;Sentiment and\nEmotion\nDetection;Supervised\nClassification;#74c476
+50;10;5;Int;Intent\nClassification;Supervised\nClassification;#74c476
+51;10;6;Cls;Text\nClassification;Supervised\nClassification;#74c476
+52;10;7;Mlc;Multi-Label\nMulti-Class\nClassification;Supervised\nClassification;#74c476
+53;11;3;Key;Keyword\nExtraction;Unsupervised\nSignaling;#74c476
+54;11;4;Esu;Extractive\nSummarization;Unsupervised\nSignaling;#74c476
+55;11;5;Top;Topic\nModeling;Unsupervised\nSignaling;#74c476
+56;11;6;Tre;Trend\nDetection;Unsupervised\nSignaling;#74c476
+57;11;7;Out;Outlier\nDetection;Unsupervised\nSignaling;#74c476
+58;12;3;Syn;Wordnet\nSynsets;Similarity;#a1d99b
+59;12;4;Dst;Distance\nMeasures;Similarity;#a1d99b
+60;12;5;Sim;Document\nSimilarity;Similarity;#a1d99b
+61;12;6;Dis;Distributed Word\nRepresentations;Similarity;#a1d99b
+62;12;7;Con;Contextualized\nWord\nRepresentations;Similarity;#a1d99b
+63;13;2;Nex;Next Token\nPrediction;Natural Language\nGeneration;#a1d99b
+64;13;3;Rep;Report\nWriting;Natural Language\nGeneration;#a1d99b
+65;13;4;Tra;Machine\nTranslation;Natural Language\nGeneration;#a1d99b
+66;13;5;Asu;Abstractive\nSummarization;Natural Language\nGeneration;#a1d99b
+67;13;6;Prp;Paraphrasing;Natural Language\nGeneration;#a1d99b
+68;13;7;Lon;Long Text\nGeneration;Natural Language\nGeneration;#a1d99b
+69;14;2;Rel;Relation\nExtraction;Systems;#c7e9c0
+70;14;3;Qan;Question\nAnswering;Systems;#c7e9c0
+71;14;4;Cha;Chatbot\nDialogue;Systems;#c7e9c0
+72;14;5;Sem;Semantic\nSearch\nIndexing;Systems;#c7e9c0
+73;14;6;Kno;Knowledge Base\nPopulation;Systems;#c7e9c0
+74;14;7;Edi;E-Discovery;Systems;#c7e9c0
+75;15;1;App;Interactive\nApp Creation;Information\nVisualization;#756bb1
+76;15;2;Ann;Annotated Text\nVisualization;Information\nVisualization;#bcbddc
+77;15;3;Wcl;Wordcloud;Information\nVisualization;#bcbddc
+78;15;4;Emb;Word\nEmbedding\nVisualization;Information\nVisualization;#bcbddc
+79;15;5;Tim;Events\non Timeline;Information\nVisualization;#bcbddc
+80;15;6;Map;Locations\non Geomap;Information\nVisualization;#bcbddc
+81;15;7;Gra;Knowledge\nGraph\nVisualization;Information\nVisualization;#bcbddc
