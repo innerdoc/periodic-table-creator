@@ -1,12 +1,15 @@
 # Periodic Table Creator
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/innerdoc/periodic-table-creator/main/periodic-table-creator/periodic_table_creator.py)
 
 ## About
 This Periodic Table Generator started with the idea for a blog about a [Periodic Table of Natural Language Processing Tasks](https://medium.com/innerdoc). With the help of Streamlit and inspired by this Bokeh [gallery example](https://docs.bokeh.org/en/latest/docs/gallery/periodic.html) it became a dynamic creator that can be customized to your Periodic Table!
 
 
 ## The result
-An example of a customized Periodic Table. In this case: for Natural Language Processing Tasks!
+[Open the demo app!](https://share.streamlit.io/innerdoc/periodic-table-creator/main/periodic-table-creator/periodic_table_creator.py)
+
+Below an example of a customized Periodic Table. In this case: for Natural Language Processing Tasks!
 
 ![alt text](periodic-table-generator-nlp-example.png "An example of a customized Periodic Table for Natural Language Processing Tasks!")
 
