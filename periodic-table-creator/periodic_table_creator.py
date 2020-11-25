@@ -146,6 +146,7 @@ with try_expander('Trademark'):
 
 with try_expander('About'):
     st.markdown('''This Periodic Table Generator is created by [Rob van Zoest](https://www.linkedin.com/in/robvanzoest/). \
+The code is available on [github.com/innerdoc](https://github.com/innerdoc/periodic-table-creator). \
 It started with the idea for a blog about a [Periodic Table of Natural Language Processing Tasks](https://medium.com/innerdoc). \
 With the help of Streamlit and inspired by [Bokeh](https://docs.bokeh.org/en/latest/docs/gallery/periodic.html) \
 it became a dynamic creator that can be customized to your Periodic Table!''')
