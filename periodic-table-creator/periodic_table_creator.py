@@ -136,7 +136,7 @@ with try_expander('Scaling'):
     trademark_size = round(12 * plot_scale)
     trademark_size = str(st.slider('Trademark', min_value=5, max_value=72, value=trademark_size, step=1, format='%dpx')) + 'px'
 
-    text_line_height = round(0.8 + (0.3 * (plot_scale-1) if plot_scale > 1 else 0), 1)
+    text_line_height = 0.6 if plot_scale <= 0.9 else 0.7 if plot_scale <=1.1 else 0.8 if plot_scale < 1.5 else 0.9
     text_line_height = st.slider('Line height for Name and Group', min_value=0.5, max_value=1.5, value=text_line_height, step=0.1, format='%f')
 
 with try_expander('Trademark'):
