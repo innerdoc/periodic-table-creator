@@ -42,7 +42,7 @@ atomicnumber;group;period;symbol;elementname;groupname;color
 41;8;6;Met;Meta-Info\nExtractor;Documents;#fdd0a2
 42;8;7;Lng;Language\nIdentification;Documents;#fdd0a2
 43;9;3;Trn;Training\nModels;Model\nDevelopment;#31a354
-44;9;4;Tst;Testing\nModels;Model\nDevelopment;#31a354
+44;9;4;Tst;Evaluating\nModels;Model\nDevelopment;#31a354
 45;9;5;Exp;Explaining\nModels;Model\nDevelopment;#31a354
 46;9;6;Dpl;Deploying\nModels;Model\nDevelopment;#31a354
 47;9;7;Mon;Monitoring\nModels;Model\nDevelopment;#31a354
