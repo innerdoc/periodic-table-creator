@@ -18,11 +18,13 @@ except:
     st.beta_set_page_config(layout="wide")
 
 try:
-    image = Image.open('periodic-table-creator/periodic-table-icon.png')
+    image = Image.open('periodic-table-creator/periodic-table-creator-icon-wide.png')
 except:
-    image = Image.open('periodic-table-icon.png')
-st.sidebar.title('Periodic Table Creator')
-st.sidebar.image(image, width=200 ) #use_column_width=True)
+    image = Image.open('periodic-table-creator-icon-wide.png')
+
+
+st.sidebar.image(image, use_column_width=True) # width=200 ) #
+#st.sidebar.title('Periodic Table Creator')
 
 
 def try_expander(expander_name, sidebar=True):
