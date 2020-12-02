@@ -139,7 +139,10 @@ with try_expander('Scaling'):
     trademark_size = str(st.slider('Trademark', min_value=5, max_value=72, value=trademark_size, step=1, format='%dpx')) + 'px'
 
     text_line_height = 0.6 if plot_scale <= 0.9 else 0.7 if plot_scale <=1.1 else 0.8 if plot_scale < 1.5 else 0.9
-    text_line_height = st.slider('Line height for Name and Group', min_value=0.5, max_value=1.5, value=text_line_height, step=0.1, format='%f')
+    text_line_height = st.slider('Text line height', min_value=0.5, max_value=1.5, value=text_line_height, step=0.1, format='%f')
+
+    border_line_width = 2
+    border_line_width = st.slider('Border line width', min_value=0, max_value=10, value=border_line_width, step=1, format='%dpx')
 
 with try_expander('Trademark'):
     trademark_tag = st.text_input('Trademark', value="www.innerdoc.com", max_chars=100)
@@ -157,12 +160,14 @@ it became a dynamic creator that can be customized to your Periodic Table!''')
 
 
 # define figure
+# https://docs.bokeh.org/en/latest/docs/user_guide/tools.html?highlight=animation#custom-tooltip
 TOOLTIPS = [
     ("Name", "@{elementname}"),
     ("Symbol", "@{symbol}"),
     ("Atomic number", "@{atomicnumber}"),
     ("Group", "@{groupname}"),
-    ("Color", "@{color}"),
+    ("(Group,Period)", "(@{group}, @{period})"),
+    ("Color", "$color[hex, swatch]:color"), #"@{color}"),
 ]
 
 p = figure(plot_width=plot_width, plot_height=plot_height,
@@ -173,7 +178,11 @@ p = figure(plot_width=plot_width, plot_height=plot_height,
     toolbar_sticky=False,
     tooltips=TOOLTIPS)
 
-r = p.rect("group", "period", 0.95, 0.95, source=df, fill_alpha=0.7, color="color")
+r = p.rect("group", "period", 0.94, 0.94, 
+    source=df,
+    fill_alpha=0.7, 
+    color="color", 
+    line_width=border_line_width)
 
 text_props = {"source": df, "text_baseline":"middle", "text_color":text_color}
 

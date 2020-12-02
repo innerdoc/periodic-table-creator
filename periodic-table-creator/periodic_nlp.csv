@@ -72,7 +72,7 @@ atomicnumber;group;period;symbol;elementname;groupname;color
 71;14;4;Cha;Chatbot\nDialogue;Systems;#c7e9c0
 72;14;5;Sem;Semantic\nSearch\nIndexing;Systems;#c7e9c0
 73;14;6;Kno;Knowledge Base\nPopulation;Systems;#c7e9c0
-74;14;7;Edi;E-Discovery;Systems;#c7e9c0
+74;14;7;Edi;E-Discovery and\nMedia Monitoring;Systems;#c7e9c0
 75;15;1;App;Interactive\nApp Creation;Information\nVisualization;#756bb1
 76;15;2;Ann;Annotated Text\nVisualization;Information\nVisualization;#bcbddc
 77;15;3;Wcl;Wordcloud;Information\nVisualization;#bcbddc
