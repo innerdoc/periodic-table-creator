@@ -164,7 +164,6 @@ TOOLTIPS = """
     <div style="width:300px; padding:10px;background-color: @color;">
         <div>
             <span style="font-size: 36px; font-weight: bold;">@symbol</span>
-
         </div>
         <div>
             <span style="font-size: 14px; font-weight: bold; ">@groupname</span>
