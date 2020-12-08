@@ -1,82 +1,82 @@
-atomicnumber;group;period;symbol;elementname;groupname;color
-1;1;1;Bit;Bits to Character\nEncoding;Source Data\nLoading;#3182bd
-2;1;2;Typ;Manual\nTypewriting;Source Data\nLoading;#6baed6
-3;1;3;Str;Loading a\nStructured\nDatafile;Source Data\nLoading;#6baed6
-4;1;4;Cor;Generating a\nCorpus;Source Data\nLoading;#6baed6
-5;1;5;Api;Loading\nfrom API;Source Data\nLoading;#6baed6
-6;1;6;Scr;Text and File\nScraping;Source Data\nLoading;#6baed6
-7;1;7;Ext;Text Extraction\nand OCR;Source Data\nLoading;#6baed6
-8;2;2;Man;Manual\nAnnotation;Training Data\nGeneration;#9ecae1
-9;2;3;Act;Annotation with\nActive Learning;Training Data\nGeneration;#9ecae1
-10;2;4;Pro;Training Data\nProvider;Training Data\nGeneration;#9ecae1
-11;2;5;Cro;Crowdsourcing\nMarketplace;Training Data\nGeneration;#9ecae1
-12;2;6;Aug;Textual Data\nAugmentation;Training Data\nGeneration;#9ecae1
-13;2;7;Rul;Rulebased\nTraining Data;Training Data\nGeneration;#9ecae1
-14;3;3;Tok;Tokenization;Word\nParsing;#fd8d3c
-15;3;4;Voc;Vocabulary\nBuilding;Word\nParsing;#fd8d3c
-16;3;5;Mor;Morphological\nTagger;Word\nParsing;#fd8d3c
-17;3;6;Pos;Part-of-Speech\nTagger;Word\nParsing;#fd8d3c
-18;3;7;Dep;Dependency\nParser;Word\nParsing;#fd8d3c
-19;4;3;Ste;Stemming;Word\nProcessing;#fd8d3c
-20;4;4;Lem;Lemmatization;Word\nProcessing;#fd8d3c
-21;4;5;Nrm;Normalization;Word\nProcessing;#fd8d3c
-22;4;6;Spl;Spell\nChecker;Word\nProcessing;#fd8d3c
-23;4;7;Neg;Negation\nRecognizer;Word\nProcessing;#fd8d3c
-24;5;3;Ngr;N-grams;Phrases and\nEntities;#fdae6b
-25;5;4;Phr;Rulebased\nPhrasematcher;Phrases and\nEntities;#fdae6b
-26;5;5;Chu;Dependency\nNounchunks;Phrases and\nEntities;#fdae6b
-27;5;6;Ner;Named Entity\nRecognition;Phrases and\nEntities;#fdae6b
-28;5;7;Abr;Abbreviation\nFinder;Phrases and\nEntities;#fdae6b
-29;6;2;Pri;Price\nParser;Entity\nEnriching;#fdae6b
-30;6;3;Geo;Geocoding;Entity\nEnriching;#fdae6b
-31;6;4;Tmp;Temporal\nParser;Entity\nEnriching;#fdae6b
-32;6;5;Nel;Named Entity\nLinking;Entity\nEnriching;#fdae6b
-33;6;6;Crf;Coreference\nResolution;Entity\nEnriching;#fdae6b
-34;6;7;Anm;Text\nAnonymizer;Entity\nEnriching;#fdae6b
-35;7;4;Sen;Sentencizer;Sentences and\nParagraphs;#fdd0a2
-36;7;5;Par;Paragraph\nSegmentation;Sentences and\nParagraphs;#fdd0a2
-37;7;6;Grm;Grammar\nChecker;Sentences and\nParagraphs;#fdd0a2
-38;7;7;Rea;Readability\nScoring;Sentences and\nParagraphs;#fdd0a2
-39;8;4;Ded;Deduplication;Documents;#fdd0a2
-40;8;5;Raw;Raw Tekst\nCleaning;Documents;#fdd0a2
-41;8;6;Met;Meta-Info\nExtractor;Documents;#fdd0a2
-42;8;7;Lng;Language\nIdentification;Documents;#fdd0a2
-43;9;3;Trn;Training\nModels;Model\nDevelopment;#31a354
-44;9;4;Tst;Evaluating\nModels;Model\nDevelopment;#31a354
-45;9;5;Exp;Explaining\nModels;Model\nDevelopment;#31a354
-46;9;6;Dpl;Deploying\nModels;Model\nDevelopment;#31a354
-47;9;7;Mon;Monitoring\nModels;Model\nDevelopment;#31a354
-48;10;3;Spa;Spam\nDetection;Supervised\nClassification;#74c476
-49;10;4;Sed;Sentiment and\nEmotion\nDetection;Supervised\nClassification;#74c476
-50;10;5;Int;Intent\nClassification;Supervised\nClassification;#74c476
-51;10;6;Cls;Text\nClassification;Supervised\nClassification;#74c476
-52;10;7;Mlc;Multi-Label\nMulti-Class\nClassification;Supervised\nClassification;#74c476
-53;11;3;Key;Keyword\nExtraction;Unsupervised\nSignaling;#74c476
-54;11;4;Esu;Extractive\nSummarization;Unsupervised\nSignaling;#74c476
-55;11;5;Top;Topic\nModeling;Unsupervised\nSignaling;#74c476
-56;11;6;Tre;Trend\nDetection;Unsupervised\nSignaling;#74c476
-57;11;7;Out;Outlier\nDetection;Unsupervised\nSignaling;#74c476
-58;12;3;Syn;Wordnet\nSynsets;Similarity;#a1d99b
-59;12;4;Dst;Distance\nMeasures;Similarity;#a1d99b
-60;12;5;Sim;Document\nSimilarity;Similarity;#a1d99b
-61;12;6;Dis;Distributed Word\nRepresentations;Similarity;#a1d99b
-62;12;7;Con;Contextualized\nWord\nRepresentations;Similarity;#a1d99b
-63;13;2;Nex;Next Token\nPrediction;Natural Language\nGeneration;#a1d99b
-64;13;3;Rep;Report\nWriting;Natural Language\nGeneration;#a1d99b
-65;13;4;Tra;Machine\nTranslation;Natural Language\nGeneration;#a1d99b
-66;13;5;Asu;Abstractive\nSummarization;Natural Language\nGeneration;#a1d99b
-67;13;6;Prp;Paraphrasing;Natural Language\nGeneration;#a1d99b
-68;13;7;Lon;Long Text\nGeneration;Natural Language\nGeneration;#a1d99b
-69;14;2;Rel;Relation\nExtraction;Systems;#c7e9c0
-70;14;3;Qan;Question\nAnswering;Systems;#c7e9c0
-71;14;4;Cha;Chatbot\nDialogue;Systems;#c7e9c0
-72;14;5;Sem;Semantic\nSearch\nIndexing;Systems;#c7e9c0
-73;14;6;Kno;Knowledge Base\nPopulation;Systems;#c7e9c0
-74;14;7;Edi;E-Discovery and\nMedia Monitoring;Systems;#c7e9c0
-75;15;1;App;Interactive\nApp Creation;Information\nVisualization;#756bb1
-76;15;2;Ann;Annotated Text\nVisualization;Information\nVisualization;#bcbddc
-77;15;3;Wcl;Wordcloud;Information\nVisualization;#bcbddc
-78;15;4;Emb;Word\nEmbedding\nVisualization;Information\nVisualization;#bcbddc
-79;15;5;Tim;Events\non Timeline;Information\nVisualization;#bcbddc
-80;15;6;Map;Locations\non Geomap;Information\nVisualization;#bcbddc
-81;15;7;Gra;Knowledge\nGraph\nVisualization;Information\nVisualization;#bcbddc
+atomicnumber;group;period;symbol;elementname;groupname;color;url;excerpt
+1;1;1;Bit;Bits to Character\nEncoding;Source Data\nLoading;#3182bd;https://www.innerdoc.com/periodic-table-of-nlp-tasks/01-bits-to-character-encoding;Text is made of characters, but files are made of bytes. These bytes represent characters according to some encoding (aka character set). Fix or load your data by choosing the right encoding.
+2;1;2;Typ;Manual\nTypewriting;Source Data\nLoading;#6baed6;https://www.innerdoc.com/periodic-table-of-nlp-tasks/02-manual-typewriting;Typing your own text gives you more confidence when testing your code or a demo.
+3;1;3;Str;Loading a\nStructured\nDatafile;Source Data\nLoading;#6baed6;https://www.innerdoc.com/periodic-table-of-nlp-tasks/03-loading-structured-datafile;Structured data implies ready-to-use data, but you have to interpret it’s scheme.
+4;1;4;Cor;Generating a\nCorpus;Source Data\nLoading;#6baed6;https://www.innerdoc.com/periodic-table-of-nlp-tasks/04-generating-a-corpus;A Corpus is a language resource consisting of a structured set of documents and additional information. It incorporates pre-processed documents and their meta-data, which might be the output of other NLP tasks. 
+5;1;5;Api;Loading\nfrom API;Source Data\nLoading;#6baed6;https://www.innerdoc.com/periodic-table-of-nlp-tasks/05-loading-from-api;An API serves as the interface between different applications. The requestor automatically gets access to data, with the benefit that the source doesn’t have to know how the other system exactly works. 
+6;1;6;Scr;Text and File\nScraping;Source Data\nLoading;#6baed6;https://www.innerdoc.com/periodic-table-of-nlp-tasks/06-text-and-file-scraping;The lack of a Corpus or API requires you to scrape your textual data or files from the web. Overcome the challenges of IP-blocking, cookie walls, request headers and js-websites.
+7;1;7;Ext;Text Extraction\nand OCR;Source Data\nLoading;#6baed6;https://www.innerdoc.com/periodic-table-of-nlp-tasks/07-text-extraction-and-ocr;Extracting text and transforming it to qualitative data is challenging when you have the output format (PDF or image) and need to reduce it to the source format of textual data.
+8;2;2;Man;Manual\nAnnotation;Training Data\nGeneration;#9ecae1;https://www.innerdoc.com/periodic-table-of-nlp-tasks/08-manual-annotation;Nobody wants to do the manual labor of tagging. Everybody wants to build language models with annotated training data.
+9;2;3;Act;Annotation with\nActive Learning;Training Data\nGeneration;#9ecae1;https://www.innerdoc.com/periodic-table-of-nlp-tasks/09-annotation-with-active-learning;Use an annotation tool that benefits from active learning to enforce a robust annotion process and balanced annotations.
+10;2;4;Pro;Training Data\nProvider;Training Data\nGeneration;#9ecae1;https://www.innerdoc.com/periodic-table-of-nlp-tasks/10-training-data-provider;Gold data contains the ground truth. Re-use available resources, but be careful that the dataset matches your purpose.
+11;2;5;Cro;Crowdsourcing\nMarketplace;Training Data\nGeneration;#9ecae1;https://www.innerdoc.com/periodic-table-of-nlp-tasks/11-crowdsourcing-marketplace;Creating training data is a labor-intensive task. Fine-tune the training data definition yourself and then scale-up by outsourcing to remote workers.
+12;2;6;Aug;Textual Data\nAugmentation;Training Data\nGeneration;#9ecae1;https://www.innerdoc.com/periodic-table-of-nlp-tasks/12-textual-data-augmentation;Boost your performance by creating data out of data, instead of new data. 
+13;2;7;Rul;Rulebased\nTraining Data;Training Data\nGeneration;#9ecae1;https://www.innerdoc.com/periodic-table-of-nlp-tasks/13-rulebased-training-data;Programmatically build training datasets by defining heuristic rules which are used in functions for labeling training data.
+14;3;3;Tok;Tokenization;Word\nParsing;#fd8d3c;https://www.innerdoc.com/periodic-table-of-nlp-tasks/14-tokenization;Many NLP tasks make use of intensive matrix calculations, for which word id’s are used, rather than words. For this, raw text is split up into tokens that represent (sub)words.
+15;3;4;Voc;Vocabulary\nBuilding;Word\nParsing;#fd8d3c;https://www.innerdoc.com/periodic-table-of-nlp-tasks/15-vocabulary-building;The goal of tokenization is a vocabulary. Word-based tokenizers have larger vocabularies with more Out-Of-Vocabulary (OOV) words than sub-word vocabularies.
+16;3;5;Mor;Morphological\nTagger;Word\nParsing;#fd8d3c;https://www.innerdoc.com/periodic-table-of-nlp-tasks/16-morphological-tagger;Assigning additional morphological information clarifies the grammatical meaning of a word, additionally to the syntax. 
+17;3;6;Pos;Part-of-Speech\nTagger;Word\nParsing;#fd8d3c;https://www.innerdoc.com/periodic-table-of-nlp-tasks/17-part-of-speech-tagger;The syntactic function of a word, like Noun or Verb, is defined by the Part-of-Speech (POS tags) and is based on the context.
+18;3;7;Dep;Dependency\nParser;Word\nParsing;#fd8d3c;https://www.innerdoc.com/periodic-table-of-nlp-tasks/18-dependency-parser;A Dependency Parser extracts a dependency graph from a sentence. In the graph the grammatical structure, like subject and object, and relationships between words represented by Dependency tags.
+19;4;3;Ste;Stemming;Word\nProcessing;#fd8d3c;https://www.innerdoc.com/periodic-table-of-nlp-tasks/19-stemming;Stemming refers to a crude heuristic process that chops off the ends of words in the hope that words with the same meaning become words with the same syntax.
+20;4;4;Lem;Lemmatization;Word\nProcessing;#fd8d3c;https://www.innerdoc.com/periodic-table-of-nlp-tasks/20-lemmatization;Lemmatization usually refers to rewriting a word to its base form (lemma) properly.
+21;4;5;Nrm;Normalization;Word\nProcessing;#fd8d3c;https://www.innerdoc.com/periodic-table-of-nlp-tasks/21-normalization;Besides Stemming or Lemmatizing, there still might be a need to edit words to move to more default words.
+22;4;6;Spl;Spell\nChecker;Word\nProcessing;#fd8d3c;https://www.innerdoc.com/periodic-table-of-nlp-tasks/22-spell-checker;Spell Checkers can recommend corrections on the word level.
+23;4;7;Neg;Negation\nRecognizer;Word\nProcessing;#fd8d3c;https://www.innerdoc.com/periodic-table-of-nlp-tasks/23-negation-recognizer;Ignoring the meaning of a negation will flip the polarity of your text.
+24;5;3;Ngr;N-grams;Phrases and\nEntities;#fdae6b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/24-n-grams;Detecting N-grams results in common multi-word expression with a high probability of occurrence, like the Bi-gram ‘red wine’.
+25;5;4;Phr;Rulebased\nPhrasematcher;Phrases and\nEntities;#fdae6b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/25-rulebased-phrasematcher;Finite size lookup tables might inspire your to build rulebased searches, especially when semantic info like lemma’s and POS- and Dependency tags can be used in the search pattern.
+26;5;5;Chu;Dependency\nNounchunks;Phrases and\nEntities;#fdae6b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/26-dependency-nounchunks;Breaking text into verb- or noun-phrases result into semantically correct subphrases of a sentence that are deducted from the dependency structure.
+27;5;6;Ner;Named Entity\nRecognition;Phrases and\nEntities;#fdae6b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/27-named-entity-recognition;Identifying named entities is the task of assigning a NER category, like Persons, Locations or Organizations, to words in a sentence. 
+28;5;7;Abr;Abbreviation\nFinder;Phrases and\nEntities;#fdae6b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/28-abbreviation-finder;Abbreviations are an efficient way of writing, but it lowers text comprehension. To solve this, identify the long-form to enrich the short-form.
+29;6;2;Pri;Price\nParser;Entity\nEnriching;#fdae6b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/29-price-parser;Extracting price and currency from raw text and normalize it into a standard format.
+30;6;3;Geo;Geocoding;Entity\nEnriching;#fdae6b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/30-geocoding;Parsing text into an address and converting an addresses into geographic coordinates like latitude and longitude.
+31;6;4;Tmp;Temporal\nParser;Entity\nEnriching;#fdae6b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/31-temporal-parser;Finding strings that contains an indication of time and then extracting a normalized time format out of it. 
+32;6;5;Nel;Named Entity\nLinking;Entity\nEnriching;#fdae6b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/32-named-entity-linking;Assigning a unique identity from a knowledge base to a named entity. 
+33;6;6;Crf;Coreference\nResolution;Entity\nEnriching;#fdae6b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/33-coreference-resolution;Finding all expressions that refer to the same entity in a text. You can compare this to Named Entity Linking, but it doesn’t necessarily use a knowledge base.
+34;6;7;Anm;Text\nAnonymizer;Entity\nEnriching;#fdae6b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/34-text-anonymizer;Removing sensitive information before a document is shared with others. Deidentification and obfuscation of persons and organizations relies on Named Entity Recognition.
+35;7;4;Sen;Sentencizer;Sentences and\nParagraphs;#fdd0a2;https://www.innerdoc.com/periodic-table-of-nlp-tasks/35-sentencizer;Finding the words that together form a sentence, or from another viewpoint, detecting sentence boundaries.
+36;7;5;Par;Paragraph\nSegmentation;Sentences and\nParagraphs;#fdd0a2;https://www.innerdoc.com/periodic-table-of-nlp-tasks/36-paragraph-segmentation;Splitting text into paragraphs requires more custom logic. A paragraph might contain a more comprehensive meaning than a sentence.
+37;7;6;Grm;Grammar\nChecker;Sentences and\nParagraphs;#fdd0a2;https://www.innerdoc.com/periodic-table-of-nlp-tasks/37-grammar-checker;Improving the grammar on a sentence level.
+38;7;7;Rea;Readability\nScoring;Sentences and\nParagraphs;#fdd0a2;https://www.innerdoc.com/periodic-table-of-nlp-tasks/38-readability-scoring;Measuring the readability of a text by looking at the keyword density, syllable count and the average length of sentences and words in a document.
+39;8;4;Ded;Deduplication;Documents;#fdd0a2;https://www.innerdoc.com/periodic-table-of-nlp-tasks/39-deduplication;Finding texts that are exactly the same or show a high similarity. Similarity can be measured on lexicality or semantic meaning from embeddings.
+40;8;5;Raw;Raw Tekst\nCleaning;Documents;#fdd0a2;https://www.innerdoc.com/periodic-table-of-nlp-tasks/40-raw-text-cleaning;Pre-processing text with the goal to increase the quality of subsequent NLP tasks.
+41;8;6;Met;Meta-Info\nExtractor;Documents;#fdd0a2;https://www.innerdoc.com/periodic-table-of-nlp-tasks/41-meta-info-extractor;Extracting text from a file should be accompanied with the extraction of meta-information.
+42;8;7;Lng;Language\nIdentification;Documents;#fdd0a2;https://www.innerdoc.com/periodic-table-of-nlp-tasks/42-language-identification;Identifying the language of a text is often done before you select the right language model.
+43;9;3;Trn;Training\nModels;Model\nDevelopment;#31a354;https://www.innerdoc.com/periodic-table-of-nlp-tasks/43-training-models;Training Language Models should start with a simple baseline and be improved with more complex techniques. 
+44;9;4;Tst;Evaluating\nModels;Model\nDevelopment;#31a354;https://www.innerdoc.com/periodic-table-of-nlp-tasks/44-evaluating-models;Evaluating the quality of a Language Model should be done by comparisons based on the right metrics for your model type.
+45;9;5;Exp;Explaining\nModels;Model\nDevelopment;#31a354;https://www.innerdoc.com/periodic-table-of-nlp-tasks/45-explaining-models;Explaining the outcomes of your Language Model is needed to prevent distrust and increase transparency. 
+46;9;6;Dpl;Deploying\nModels;Model\nDevelopment;#31a354;https://www.innerdoc.com/periodic-table-of-nlp-tasks/46-deploying-models;Deploying your Language Model might be a recurrent building block fro DevOps in a larger pipeline. 
+47;9;7;Mon;Monitoring\nModels;Model\nDevelopment;#31a354;https://www.innerdoc.com/periodic-table-of-nlp-tasks/47-monitoring-models;Monitoring your Language Model might give you the feedback to further improve on performance and usage.
+48;10;3;Spa;Spam\nDetection;Supervised\nClassification;#74c476;https://www.innerdoc.com/periodic-table-of-nlp-tasks/48-spam-detection;ISPs continuously need to improve on detecting and filtering spam out.
+49;10;4;Sed;Sentiment and\nEmotion\nDetection;Supervised\nClassification;#74c476;https://www.innerdoc.com/periodic-table-of-nlp-tasks/49-sentiment-and-emotion-detection;Detecting the overall attitude expressed within a text in an imperative need to standardize the measurement of human sentiment and affective meaning.
+50;10;5;Int;Intent\nClassification;Supervised\nClassification;#74c476;https://www.innerdoc.com/periodic-table-of-nlp-tasks/50-intent-classification;Understanding the user’s intent and giving the correct responses. 
+51;10;6;Cls;Text\nClassification;Supervised\nClassification;#74c476;https://www.innerdoc.com/periodic-table-of-nlp-tasks/51-text-classification;Assigning tags or categories to text according to its content. It is the broader task where Intent, Sentiment and Spam classification are part of.
+52;10;7;Mlc;Multi-Label\nMulti-Class\nClassification;Supervised\nClassification;#74c476;https://www.innerdoc.com/periodic-table-of-nlp-tasks/52-multi-label-multi-class-classification;A specific sub-solution of Text Classification is Multi-Label Multi-Class Text Classification.
+53;11;3;Key;Keyword\nExtraction;Unsupervised\nSignaling;#74c476;https://www.innerdoc.com/periodic-table-of-nlp-tasks/53-keyword-extraction;Providing the most relevant words from a document.
+54;11;4;Esu;Extractive\nSummarization;Unsupervised\nSignaling;#74c476;https://www.innerdoc.com/periodic-table-of-nlp-tasks/54-extractive-summarization;Extracting the most relevant sentences from a text works in the same way as Keyword extraction.
+55;11;5;Top;Topic\nModeling;Unsupervised\nSignaling;#74c476;https://www.innerdoc.com/periodic-table-of-nlp-tasks/55-topic-modeling;Dividing a set of vectorized documents into N unsupervised topics by determining how similar vectors for a specific topic should be, and how many topics should be distinguished.
+56;11;6;Tre;Trend\nDetection;Unsupervised\nSignaling;#74c476;https://www.innerdoc.com/periodic-table-of-nlp-tasks/56-trend-detection;Quantifying the deviation of the occurrence of words beyond the expected variability, and defining above what threshold you call this a trend. 
+57;11;7;Out;Outlier\nDetection;Unsupervised\nSignaling;#74c476;https://www.innerdoc.com/periodic-table-of-nlp-tasks/57-outlier-detection;Finding text that is exceptionally far from the mainstream text.
+58;12;3;Syn;Wordnet\nSynsets;Similarity;#a1d99b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/58-wordnet-synsets;Defining lexical databases which consist of concepts that are described and interlinked by means of conceptual-semantic and lexical relations.
+59;12;4;Dst;Distance\nMeasures;Similarity;#a1d99b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/59-distance-measures;Measuring the syntax similarity or semantic word similarity by a specific distance calculation.
+60;12;5;Sim;Document\nSimilarity;Similarity;#a1d99b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/60-document-similarity;Estimating the degree of similarity between the semantic representation of two documents.
+61;12;6;Dis;Distributed Word\nRepresentations;Similarity;#a1d99b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/61-distributed-word-representations;Multi-dimensional meaning representations of a word are reduced to a level of N dimensions, so the vectors can be used for similarity measures.
+62;12;7;Con;Contextualized\nWord\nRepresentations;Similarity;#a1d99b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/62-contextualized-word-representations;Word Representations with the ability to incorporate context.
+63;13;2;Nex;Next Token\nPrediction;Natural Language\nGeneration;#a1d99b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/63-next-token-prediction;Predicting the next word that is appropriate in the context.
+64;13;3;Rep;Report\nWriting;Natural Language\nGeneration;#a1d99b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/64-report-writing;Writing sentences based on structured data is also called Data-to-Text Generation. 
+65;13;4;Tra;Machine\nTranslation;Natural Language\nGeneration;#a1d99b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/65-machine-translation;Translation by machines to perfectly transform text into another language.
+66;13;5;Asu;Abstractive\nSummarization;Natural Language\nGeneration;#a1d99b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/66-abstractive-summarization;Abstractive summarization systems generate new phrases that express a text by using as few words as possible.
+67;13;6;Prp;Paraphrasing;Natural Language\nGeneration;#a1d99b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/67-paraphrasing;Expressing the meaning of a source text into a new text by using different words and maintaining the semantic meaning. 
+68;13;7;Lon;Long Text\nGeneration;Natural Language\nGeneration;#a1d99b;https://www.innerdoc.com/periodic-table-of-nlp-tasks/68-long-text-generation;Generating long sequences of words, based on long sequences of words with appropriate performance.
+69;14;2;Rel;Relation\nExtraction;Systems;#c7e9c0;https://www.innerdoc.com/periodic-table-of-nlp-tasks/69-relation-extraction;Extracting semantic relationships from a text, to make a connection between entities.
+70;14;3;Qan;Question\nAnswering;Systems;#c7e9c0;https://www.innerdoc.com/periodic-table-of-nlp-tasks/70-question-answering;Answering questions posed by humans in a natural language, regardless of the format of the question. 
+71;14;4;Cha;Chatbot\nDialogue;Systems;#c7e9c0;https://www.innerdoc.com/periodic-table-of-nlp-tasks/71-chatbot-dialogue;Programming a natural and convincing chatbot dialogue for the personas of your customers, to meet your customers’ needs.
+72;14;5;Sem;Semantic\nSearch\nIndexing;Systems;#c7e9c0;https://www.innerdoc.com/periodic-table-of-nlp-tasks/72-semantic-search-indexing;Increasing search accuracy by adding semantic information about a piece of text to the index, in addition to keyword search.
+73;14;6;Kno;Knowledge Base\nPopulation;Systems;#c7e9c0;https://www.innerdoc.com/periodic-table-of-nlp-tasks/73-knowledge-base-population;Discovering facts about entities (NER, NEL) and building a knowledge base with it.
+74;14;7;Edi;E-Discovery and\nMedia Monitoring;Systems;#c7e9c0;https://www.innerdoc.com/periodic-table-of-nlp-tasks/74-e-discovery-and-media-monitoring;Large scale content analysis for identifying, collecting and producing information to support investigations and understand the voice of the author.
+75;15;1;App;Interactive\nApp Creation;Information\nVisualization;#756bb1;https://www.innerdoc.com/periodic-table-of-nlp-tasks/75-interactive-app-creation;Presenting your NLP task results in a transparent, interactive and fancy App. 
+76;15;2;Ann;Annotated Text\nVisualization;Information\nVisualization;#bcbddc;https://www.innerdoc.com/periodic-table-of-nlp-tasks/76-annotated-text-visualization;Printing text, but prettier. Text is not only characters, but also meta-info.
+77;15;3;Wcl;Wordcloud;Information\nVisualization;#bcbddc;https://www.innerdoc.com/periodic-table-of-nlp-tasks/77-wordcloud;Most Wordclouds seem to ignore best practices for visualizing information.
+78;15;4;Emb;Word\nEmbedding\nVisualization;Information\nVisualization;#bcbddc;https://www.innerdoc.com/periodic-table-of-nlp-tasks/78-word-embedding-visualization;Visualizing Word Embeddings is often done to inspect the embedding and experience the cohesiveness of a subset of the embedding.
+79;15;5;Tim;Events\non Timeline;Information\nVisualization;#bcbddc;https://www.innerdoc.com/periodic-table-of-nlp-tasks/79-events-on-timeline;Increasing insight into text by plotting events chronological on a timeline.
+80;15;6;Map;Locations\non Geomap;Information\nVisualization;#bcbddc;https://www.innerdoc.com/periodic-table-of-nlp-tasks/80-locations-on-geomap;Plotting geocoded Named Entities on a map.
+81;15;7;Gra;Knowledge\nGraph\nVisualization;Information\nVisualization;#bcbddc;https://www.innerdoc.com/periodic-table-of-nlp-tasks/81-knowledge-graph-visualization;Visualizing a network of interlinked descriptions of entities.

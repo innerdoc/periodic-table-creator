@@ -167,8 +167,37 @@ TOOLTIPS = [
     ("Atomic number", "@{atomicnumber}"),
     ("Group", "@{groupname}"),
     ("(Group,Period)", "(@{group}, @{period})"),
+    ("Excerpt", "@{excerpt}"),
+    ("Url", "@{url}"),
     ("Color", "$color[hex, swatch]:color"), #"@{color}"),
 ]
+
+TOOLTIPS = """
+    <div style="width:300px; padding:10px;background-color: @color;">
+        <div>
+            <span style="font-size: 36px; font-weight: bold;">@symbol</span>
+
+        </div>
+        <div>
+            <span style="font-size: 15px; font-weight: bold; ">@groupname</span>
+        </div>
+        <br>
+        <div>
+            <span style="font-size: 17px; font-weight: bold; margin-bottom:20px">@atomicnumber - @elementname</span>
+        </div>
+        <div>
+            <span style="font-size: 15px;">@excerpt</span>
+        </div>
+        <br>
+        <div>
+            <span style="font-size: 10px; color: #696;">@url</span>
+        </div>
+        <div>
+            <span style="font-size: 10px; color: #696;">(@{group}, @{period})</span>
+        </div>
+"""
+
+
 
 p = figure(plot_width=plot_width, plot_height=plot_height,
     x_range=groups,
