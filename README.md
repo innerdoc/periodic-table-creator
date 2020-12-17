@@ -1,6 +1,7 @@
 # Periodic Table Creator
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/innerdoc/periodic-table-creator/main/periodic-table-creator/periodic_table_creator.py)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://www.innerdoc.com/periodic-table-demo/) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40innerdoc)](https://twitter.com/innerdoc_nlp)
+
 
 ## About
 This Periodic Table Generator started with the idea for a blog about a [Periodic Table of Natural Language Processing Tasks](https://www.innerdoc.com/periodic-table-of-nlp-tasks/). With the help of Streamlit and inspired by this Bokeh [gallery example](https://docs.bokeh.org/en/latest/docs/gallery/periodic.html) it became a dynamic creator that can be customized to your Periodic Table!
