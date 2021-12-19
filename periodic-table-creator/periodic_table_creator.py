@@ -9,6 +9,7 @@ from bokeh.plotting import figure
 from bokeh.palettes import all_palettes, Turbo256 
 from bokeh.transform import dodge, factor_cmap
 from bokeh.models import Title
+from bokeh.core.properties import value
 
 
 # must be called as first command
@@ -205,7 +206,7 @@ p.text(x=dodge("group", -0.4, range=p.x_range),
     y=dodge("period", 0.3, range=p.y_range),
     text="atomicnumber",
     text_align="left",
-    text_font=plot_font,
+    text_font=value(plot_font),
     text_font_style="italic",
     text_font_size=element_number_size,
     **text_props)
@@ -214,7 +215,7 @@ p.text(x=dodge("group", -0.4, range=p.x_range),
 p.text(x=dodge("group", -0.2, range=p.x_range),
     y=dodge("period", 0.1, range=p.y_range),
     text="symbol",
-    text_font=plot_font,
+    text_font=value(plot_font),
     text_font_style="bold",
     text_font_size=element_symbol_size,
     **text_props)
@@ -225,7 +226,7 @@ p.text(x=dodge("group", 0.0, range=p.x_range),
     text="elementname",
     text_align="center",
     text_line_height=text_line_height,
-    text_font=plot_font,
+    text_font=value(plot_font),
     text_font_size=element_name_size,
     **text_props)
 
@@ -247,7 +248,7 @@ p.text(x=groups,
     text_align="center", 
     text_line_height=text_line_height,
     text_baseline="middle",
-    text_font=plot_font,
+    text_font=value(plot_font),
     text_font_size=group_name_size,
     text_color=groupname_color
     )
@@ -259,7 +260,7 @@ p.text(x=[location_x],
     text_align="center",
     text_baseline="hanging",
     text_color=trademark_color,
-    text_font=plot_font,
+    text_font=value(plot_font),
     text_font_size=trademark_size
     )
 
